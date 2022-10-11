@@ -8,11 +8,12 @@ mindmap-plugin: basic
 
 ## Java 基础
 - Java集合
-- 多线程
+- [[Java并发编程]]
+- [[Java SE]]
 
 ## 数据库
 - mysql
-- redis
+- [[redis]]
 
 ## [[JVM]]
 
@@ -44,3 +45,5 @@ mindmap-plugin: basic
 ## 资源
 - [JavaGuide](https://interview.javaguide.cn/#/)
 - [tobebetterajavaer](https://tobebetterjavaer.com/blog.html)
+
+## 新节点
