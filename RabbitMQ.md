@@ -51,6 +51,11 @@
 3.  路由功能添加模糊匹配
 4.  消息产生者产生消息,把消息交给交换机
 5.  交换机根据key的规则模糊匹配到对应的队列,由队列的监听消费者接收消息消费
+## exchange 的类型
+1. DirectExchange
+2. FanoutExchange
+3. TopicExchange
+4. HeadersExchange
 
 # 最佳实践
 # 高级

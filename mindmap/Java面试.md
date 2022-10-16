@@ -12,7 +12,7 @@ mindmap-plugin: basic
 - [[Java SE]]
 
 ## 数据库
-- mysql
+- [[mysql]]
 - [[redis]]
 
 ## [[JVM]]
@@ -45,5 +45,3 @@ mindmap-plugin: basic
 ## 资源
 - [JavaGuide](https://interview.javaguide.cn/#/)
 - [tobebetterajavaer](https://tobebetterjavaer.com/blog.html)
-
-## 新节点
