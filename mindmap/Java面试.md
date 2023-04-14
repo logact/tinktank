@@ -4,7 +4,7 @@ mindmap-plugin: basic
 
 ---
 
-# [[Java]]面试
+# 
 
 ## Java 基础
 - Java集合
