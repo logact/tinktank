@@ -9,7 +9,8 @@
 1. 创建Action
 ```powershell
 $Params = @{
- "Execute"  = "gitsync"
+ "Execute"  = "powershell.exe"
+ "Argument" = "gitsync"
 }
  
 $Action = New-ScheduledTaskAction @Params
@@ -73,9 +74,10 @@ Get-ScheduledTask -TaskName 'gitsyncDaily' | Stop-ScheduledTask
 
 整体文件
 ```powershell
-$Params = @{  
-    "Execute"  = "gitsync"  
-}  
+$Params = @{
+ "Execute"  = "powershell.exe"
+ "Argument" = "gitsync"
+}
   
 $Action = New-ScheduledTaskAction @Params  
   
@@ -118,3 +120,7 @@ $Task | Register-ScheduledTask -TaskName 'gitsyncDaily'
 
 # ref
 [New-ScheduledTaskPrincipal (ScheduledTasks) | Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/new-scheduledtaskprincipal?view=windowsserver2022-ps)
+
+# 直接使用windows 界面创建
+控制面板-》搜索任务控制
+![[Pasted image 20230416223453.png]]
